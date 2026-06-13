@@ -15,8 +15,8 @@ curated knowledge base, not application code.
   topic, cross-linked.
 - `skills/` — Claude Code skills, one directory per skill (`<name>/SKILL.md`).
 - `.claude-plugin/` — packages this repo as the `dotagents` marketplace shipping
-  the `raulk-skills` plugin. The plugin ships everything under `skills/`, so
-  adding a skill directory there ships it; no manifest edit needed.
+  the `dotagents` plugin. The plugin ships everything under `skills/`, so adding a
+  skill directory there ships it; no manifest edit needed.
 
 ## How to work here
 
