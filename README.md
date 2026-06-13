@@ -15,14 +15,14 @@ Claude plugin, and the repo doubles as its own single-plugin marketplace.
 
 ```
 /plugin marketplace add raulk/dotagents
-/plugin install raulk-skills@raulk-skills
+/plugin install raulk-skills@dotagents
 ```
 
 To try it from a local checkout before it is published, add it by path:
 
 ```
 /plugin marketplace add /path/to/this/repo
-/plugin install raulk-skills@raulk-skills
+/plugin install raulk-skills@dotagents
 ```
 
 The plugin ships everything under `skills/`. Adding a new `skills/<name>/SKILL.md`
