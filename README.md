@@ -1,8 +1,9 @@
-# skills
+# dotagents
 
-Raul's personal collection of [Claude Code](https://docs.claude.com/en/docs/claude-code)
-skills, plus the model guidance used to write and tune them. The repo doubles as
-an installable Claude plugin and its own single-plugin marketplace.
+Raul's personal agent tooling: [Claude Code](https://docs.claude.com/en/docs/claude-code)
+skills, the model prompting cards and learnings used to write and tune them, and
+the agent guidance that governs the repo itself. The skills ship as an installable
+Claude plugin, and the repo doubles as its own single-plugin marketplace.
 
 ## Contents
 
