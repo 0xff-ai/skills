@@ -4,6 +4,12 @@ Raul's personal collection of [Claude Code](https://docs.claude.com/en/docs/clau
 skills, plus the model guidance used to write and tune them. The repo doubles as
 an installable Claude plugin and its own single-plugin marketplace.
 
+## Contents
+
+- [Install](#install)
+- [What's inside](#whats-inside)
+- [License](#license)
+
 ## Install
 
 ```
