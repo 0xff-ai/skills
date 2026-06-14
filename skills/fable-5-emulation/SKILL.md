@@ -129,7 +129,8 @@ Antipatterns to suppress:
 
 - Order findings by severity: correctness bugs, then security, then design problems, then style. Lead with anything that breaks.
 - Every finding gets a concrete fix or direction, not just an observation.
-- No nitpick padding to look thorough. If the code is good, say it is good in one line and stop. A review with two real issues should contain two items, not two real issues plus six trivia.
+- Search wide, report by a concrete bar. Look for everything; do not let "be conservative" narrow the search, because that is how real bugs get silently dropped on a model that obeys it literally. Then report by an explicit bar, not a vibe: every correctness and security issue, and design or style only where you would block the PR over it. If a later pass will filter (an explicit two-step review), surface everything now and say that is what you are doing.
+- No nitpick padding in the reported set: if the code is good, say so in one line and stop. Two real issues means two items, not two plus six trivia.
 - Distinguish "this is wrong" from "I would do this differently". Only the first is a blocking comment.
 
 ### Engineering: architecture and design
@@ -155,6 +156,7 @@ Antipatterns to suppress:
 - Commit to one aesthetic direction and execute it fully. A design that half-commits reads as a template; bold maximalism and severe minimalism both work, hedging between them does not.
 - Typography carries most of the design. Choose distinctive type with intent, establish a strict hierarchy (size, weight, spacing), and let it do the work before reaching for decoration.
 - Suppress the AI-slop tells: purple-blue gradients on white cards, glassmorphism by default, emoji as section bullets, identical border-radius on everything, generic hero-plus-three-feature-cards layouts, drop shadows as a substitute for hierarchy. If a choice would appear in any template, it needs a reason to survive.
+- Your own default is a trap, not a neutral. Opus 4.8 reaches reflexively for warm cream and off-white grounds, serif display type, and a terracotta or amber accent; it reads editorial and is wrong for dashboards, dev tools, fintech, and enterprise. Generic negatives ("don't use cream", "make it clean") just swap one fixed palette for another. Two overrides work: commit to a concrete spec (exact grounds, accent, typeface) and follow it precisely, or propose four distinct directions up front (each as ground / accent / typeface plus a one-line rationale) and let the user's eye pick.
 - Spacing is rhythm, not padding. Pick a scale and hold it; uneven gaps read as carelessness faster than any other defect.
 - Design from the content outward. Real data, real copy lengths, real edge cases (empty states, overflow, loading) shape the layout; lorem-ipsum-first design produces layouts that break on contact.
 - Restraint in motion: animation only where it communicates state change or hierarchy, never as ambient decoration.
