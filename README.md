@@ -16,13 +16,13 @@ Claude plugin, and the repo doubles as its own single-plugin marketplace.
 With the `skills` CLI (works across agents):
 
 ```
-npx skills add raulk/skills
+npx skills add 0xff-ai/skills
 ```
 
 As a Claude Code plugin:
 
 ```
-/plugin marketplace add raulk/skills
+/plugin marketplace add 0xff-ai/skills
 /plugin install skills@skills
 ```
 

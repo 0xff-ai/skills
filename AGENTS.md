@@ -1,4 +1,4 @@
-# dot-agents
+# skills
 
 Raul's skills and global agent guidance. This repo holds reusable agent
 material: model prompting cards, durable learnings, and skills. Treat it as a
