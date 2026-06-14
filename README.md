@@ -1,4 +1,6 @@
-# skills
+# 0xff's skills
+
+<img width="1672" height="941" alt="fable5 optimized-256" src="https://github.com/user-attachments/assets/1f0cbcc4-baaa-4237-8c63-5fc7a409ce81" />
 
 [0xff.ai](https://0xff.ai)'s Fable 5 Emulator skill for
 [Claude Code](https://docs.claude.com/en/docs/claude-code). It gives an Opus
