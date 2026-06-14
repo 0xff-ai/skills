@@ -1,0 +1,1 @@
+What's the typical p99 latency for a Redis GET on a well-tuned EC2 instance in the same AZ?

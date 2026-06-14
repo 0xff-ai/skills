@@ -1,0 +1,1 @@
+How do I check the exit code of the last command in fish shell?

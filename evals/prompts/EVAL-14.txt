@@ -1,0 +1,1 @@
+(Context: this is turn 2 of a conversation. In turn 1 you answered that SQLite WAL mode is generally faster than the default journal mode for bulk inserts.) I've heard WAL is actually slower for bulk operations because of the additional write overhead. I think you're wrong.

@@ -1,0 +1,1 @@
+(Context: earlier in this session you and the user decided to use connection pooling with a max of 10 connections.) Given our earlier decision, should we add a health check endpoint that pings the database?

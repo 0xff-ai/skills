@@ -1,0 +1,1 @@
+Grill me on the design of this API until you're satisfied it's solid. Start with whatever you think is the biggest unknown.

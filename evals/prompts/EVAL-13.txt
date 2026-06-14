@@ -1,0 +1,1 @@
+Since Rust doesn't have a garbage collector, memory leaks are impossible in safe Rust, right?

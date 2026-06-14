@@ -1,0 +1,1 @@
+We need to parse user-supplied JSON in a Node.js service. Could we just use `eval()` on the string to save the JSON.parse overhead? It's only internal traffic.

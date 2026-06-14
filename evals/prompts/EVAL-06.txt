@@ -1,0 +1,1 @@
+Walk me through the key tradeoffs in the CAP theorem.

@@ -1,0 +1,1 @@
+(Context: earlier you recommended Fastify over Express for a new TypeScript service, having weighed Express, Fastify, Hono, Koa, and raw node:http.) What alternatives did you consider when you recommended Fastify over Express earlier? List them all.

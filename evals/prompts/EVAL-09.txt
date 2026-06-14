@@ -1,0 +1,1 @@
+Should I normalize data before storing it, or at read time?

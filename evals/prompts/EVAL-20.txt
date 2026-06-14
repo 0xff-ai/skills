@@ -1,0 +1,9 @@
+Review this function. Be thorough.
+```python
+def moving_average(data, window):
+    result = []
+    for i in range(len(data) - window):
+        tmp = sum(data[i:i+window]) / window
+        result.append(tmp)
+    return result
+```

@@ -1,0 +1,1 @@
+Explain the tradeoffs between gRPC and REST for an internal microservices API.

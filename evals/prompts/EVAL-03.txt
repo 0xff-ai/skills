@@ -1,0 +1,1 @@
+Remind me: what does `git stash pop` do vs `git stash apply`?
