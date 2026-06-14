@@ -1,9 +1,10 @@
 # skills
 
-Raul's personal agent tooling: [Claude Code](https://docs.claude.com/en/docs/claude-code)
-skills, the model prompting cards and learnings used to write and tune them, and
-the agent guidance that governs the repo itself. The skills ship as an installable
-Claude plugin, and the repo doubles as its own single-plugin marketplace.
+[0xff.ai](https://0xff.ai)'s Fable 5 Emulator skill for
+[Claude Code](https://docs.claude.com/en/docs/claude-code). It gives an Opus
+session a Fable-like style and judgment overlay: concise, plainspoken,
+mechanism-first, and calibrated to the user's actual uncertainty. The skill
+installs through the `skills` CLI with `npx`.
 
 ## Contents
 
@@ -13,36 +14,24 @@ Claude plugin, and the repo doubles as its own single-plugin marketplace.
 
 ## Install
 
-With the `skills` CLI (works across agents):
-
 ```
 npx skills add 0xff-ai/skills
 ```
 
-As a Claude Code plugin:
+To try a local checkout before it is published, add it by path:
 
 ```
-/plugin marketplace add 0xff-ai/skills
-/plugin install skills@skills
+npx skills add /path/to/this/repo
 ```
 
-To try the plugin from a local checkout before it is published, add it by path:
-
-```
-/plugin marketplace add /path/to/this/repo
-/plugin install skills@skills
-```
-
-The plugin ships everything under `skills/`. Adding a new `skills/<name>/SKILL.md`
-ships it on the next release; no manifest edit is needed.
+The package ships everything under `skills/`. Today, the primary shipped skill is
+`fable-5-emulation`.
 
 ## What's inside
 
-- `skills/` — the skills themselves, one directory per skill (`<name>/SKILL.md`).
-  Currently ships `fable-5-emulation`, a session-wide style and judgment overlay
-  that makes an Opus session approximate Claude Fable 5's conversational character.
+- `skills/fable-5-emulation/` — the Fable 5 Emulator skill.
 - `cards/` — one prompting card per model (facts, tendencies, steering levers),
-  used when optimizing skills and prompts. Schema in `cards/README.md`.
+  used when tuning the emulator and related prompts. Schema in `cards/README.md`.
 - `sources/` — verbatim vendor prompting guidance the cards are derived from.
 - `learnings/` — durable findings about prompting and skill portability across
   models and harnesses.

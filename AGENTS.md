@@ -1,6 +1,6 @@
 # skills
 
-Raul's skills and global agent guidance. This repo holds reusable agent
+[0xff.ai](https://0xff.ai)'s skills and global agent guidance. This repo holds reusable agent
 material: model prompting cards, durable learnings, and skills. Treat it as a
 curated knowledge base, not application code.
 
@@ -14,9 +14,8 @@ curated knowledge base, not application code.
 - `learnings/` — durable findings worth keeping across sessions. One file per
   topic, cross-linked.
 - `skills/` — Claude Code skills, one directory per skill (`<name>/SKILL.md`).
-- `.claude-plugin/` — packages this repo as the `skills` marketplace shipping the
-  `skills` plugin. The plugin ships everything under `skills/`, so adding a skill
-  directory there ships it; no manifest edit needed.
+- `skills/` is the installable surface for `npx skills`; adding a skill directory
+  there ships it on the next release.
 
 ## How to work here
 
